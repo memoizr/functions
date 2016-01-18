@@ -1,5 +1,4 @@
 package com.memoizrlabs.functions;
 
-public interface Function {
-
+public interface Function<R> {
 }
