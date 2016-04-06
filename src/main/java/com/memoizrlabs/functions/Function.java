@@ -1,4 +1,6 @@
 package com.memoizrlabs.functions;
 
-public interface Function<R> {
+import java.io.Serializable;
+
+public interface Function<R> extends Serializable {
 }

@@ -1,5 +1,6 @@
 package com.memoizrlabs.functions;
 
-public interface Action {
+import java.io.Serializable;
 
+public interface Action extends Serializable {
 }
